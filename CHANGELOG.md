@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added CLI command to list users: `user-list`
 - Added CLI command to print config: `config-dump`
 - Added ability to configure `search_path` for PostgreSQL data sources
+- Added ability to remove an user
 
 ### Changed
 
@@ -31,7 +32,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Removed the properties `nd_trash_deleted` and `nd_trash_deleted_date`.
   Deleted dashboards are now permanently removed from the database
 - Moved documentation to `doc/user`. It can now be built with Sphinx and is
-  automatically built on https://urungi.readthedocs.io/
+  automatically built on <https://urungi.readthedocs.io/>
 
 ### Fixed
 
