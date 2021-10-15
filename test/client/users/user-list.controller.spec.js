@@ -10,13 +10,12 @@ require('../../../public/js/users/users-list.controller.js');
 describe('UsersListController', function () {
     beforeEach(angular.mock.module('app.users'));
 
-    let $controller, $httpBackend, $uibModal, $q;
+    let $controller, $httpBackend, $q;
     let vm;
 
-    beforeEach(inject(function (_$controller_, _$httpBackend_, _$uibModal_, _$q_) {
+    beforeEach(inject(function (_$controller_, _$httpBackend_, _$q_) {
         $controller = _$controller_;
         $httpBackend = _$httpBackend_;
-        $uibModal = _$uibModal_;
         $q = _$q_;
     }));
 
